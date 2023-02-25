@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./Assets/css/line-awesome.min.css" />
     <link rel="stylesheet" href="./Assets/css/style.css" />
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#navbar">
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container flex-lg-column">
@@ -29,7 +29,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav flex-lg-column fs-1">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="#home">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#portfolio">Portfolio</a>
@@ -49,15 +49,114 @@
     <!-- CONTENT WRAPPER-->
     <div id="content-wrapper">
       <!-- HOME -->
-      <section id="home">
+      <section id="home" class="full-height" px-lg-5>
         <div class="container"></div>
-        <span class="fw-bold d-lg-none" id="name">MILGRE ASIS</span>
+        <span class="fw-bold d-lg-none" id="name" data-aos="fade-up"
+          >MILGRE ASIS</span
+        >
         <img
           src="./Assets/images/IMG_0153-2 copy.jpeg"
           class="rounded mx-auto d-block"
+          data-aos="fade-up"
+          data-aos-delay="300"
         />
       </section>
       <!-- //HOME -->
+
+      <!-- PORTFOLIO -->
+
+      <section id="portfolio" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row pb-4" data-aos="fade-up">
+            <div class="col-lg-8 mx-auto">
+              <h1 class="text-center">MY RECENT PROJECTS</h1>
+            </div>
+          </div>
+          <div class="row gy-4">
+            <div class="col-md-6" data-aos="fade-up">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img
+                    class="rounded-4"
+                    src="https://images.pexels.com/photos/2448499/pexels-photo-2448499.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+                  />
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>User Guide</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolorem quod consectetur natus, enim atque aspernatur itaque
+                    earum culpa eligendi quibusdam rem aliquam, veniam hic
+                    nostrum eos. Deleniti eaque ratione numquam.
+                  </p>
+                  <a href="#" class="link-custom">Read more</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img
+                    class="rounded-4"
+                    src="https://images.pexels.com/photos/221164/pexels-photo-221164.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  />
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>FAQ</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolorem quod consectetur natus, enim atque aspernatur itaque
+                    earum culpa eligendi quibusdam rem aliquam, veniam hic
+                    nostrum eos. Deleniti eaque ratione numquam.
+                  </p>
+                  <a href="#" class="link-custom">Read more</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-up">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img
+                    class="rounded-4"
+                    src="https://images.pexels.com/photos/7203727/pexels-photo-7203727.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  />
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>API Documentation</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolorem quod consectetur natus, enim atque aspernatur itaque
+                    earum culpa eligendi quibusdam rem aliquam, veniam hic
+                    nostrum eos. Deleniti eaque ratione numquam.
+                  </p>
+                  <a href="#" class="link-custom">Read more</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img
+                    class="rounded-4"
+                    src="https://images.pexels.com/photos/4027658/pexels-photo-4027658.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  />
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>Installation Guide</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolorem quod consectetur natus, enim atque aspernatur itaque
+                    earum culpa eligendi quibusdam rem aliquam, veniam hic
+                    nostrum eos. Deleniti eaque ratione numquam.
+                  </p>
+                  <a href="#" class="link-custom">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //PORTFOLIO -->
     </div>
     <!-- //CONTENT WRAPPER-->
 
