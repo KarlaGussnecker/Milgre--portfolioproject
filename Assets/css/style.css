@@ -9,10 +9,9 @@
 }
 
 body {
-  background-image: url("https://images.pexels.com/photos/3255761/pexels-photo-3255761.jpeg?auto=compress&cs=tinysrgb&w=800");
-  background-repeat: no-repeat;
+  background-image: url("https://images.pexels.com/photos/15067862/pexels-photo-15067862.jpeg?auto=compress&cs=tinysrgb&w=1200");
   background-attachment: fixed;
-  background-size: cover;
+  background-size: 100%;
   font-family: var(--font-base), sans-serif;
 }
 
@@ -92,6 +91,10 @@ img {
     padding-right: 30%;
     margin-top: -15%;
   }
+
+  #home-img {
+    display: block;
+  }
 }
 
 @media (max-width: 991px) {
@@ -101,6 +104,11 @@ img {
 
   #content-wrapper {
     padding-top: 50px;
+  }
+  #home-img {
+    margin-top: -100px;
+    width: 70%;
+    text-align: left;
   }
 }
 
