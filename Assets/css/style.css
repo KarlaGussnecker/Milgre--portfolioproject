@@ -100,6 +100,7 @@ img {
 @media (max-width: 991px) {
   .navbar .nav-link {
     font-size: 80%;
+    flex-direction: row;
   }
 
   #content-wrapper {
@@ -109,6 +110,10 @@ img {
     margin-top: -100px;
     width: 70%;
     text-align: left;
+  }
+
+  #portfolio {
+    padding-left: 15%;
   }
 }
 
