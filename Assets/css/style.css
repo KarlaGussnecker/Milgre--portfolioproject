@@ -204,4 +204,51 @@ img {
 }
 
 #image-link {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  height: auto;
+  position: absolute;
+  left: 0;
+}
+
+.button-back {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  margin-top: 10%;
+  margin-left: 10%;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-back:after {
+  content: "";
+  background-color: white;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-back:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-back {
+    padding: 13px 50px 13px;
+  }
 }
