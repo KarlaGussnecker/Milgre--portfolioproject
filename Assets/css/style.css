@@ -3,7 +3,7 @@
 :root {
   --color-body: #b6cbce;
   --color-heading: #0c0c0c;
-  --color-brand2: #deff58;
+  --color-brand2: rgba(94, 184, 172, 0.77);
   --sidebar-width: 450px;
   --font-base: "Bai Jamjuree";
 }
@@ -36,8 +36,14 @@ a:hover {
 }
 
 img {
-  width: 60%;
-  margin-top: 30%;
+  width: 80%;
+  height: auto;
+  margin-top: -30px;
+}
+#logo-img {
+  width: 30%;
+  height: auto;
+  padding-bottom: 10%;
 }
 
 #thumbnail-image {
@@ -56,6 +62,11 @@ img {
   border-bottom: 2px solid rgba(255, 255, 255, 0.11);
 }
 
+#logo-nav {
+  width: 40%;
+  margin-left: 35%;
+  margin-bottom: 20%;
+}
 .navbar .nav-link {
   font-weight: 700;
   font-size: 150%;
@@ -88,25 +99,22 @@ img {
   }
 
   #content-wrapper {
-    padding-right: 30%;
-    margin-top: -15%;
+    margin-right: 40%;
   }
-
-  #home-img {
-    display: block;
+  #logo-img {
+    display: none;
   }
 }
 
 @media (max-width: 991px) {
   .navbar .nav-link {
-    font-size: 60%;
+    font-size: 50%;
+    padding-top: 10px;
+    display: none;
   }
-
-  #home-img {
-    margin-top: -200px;
-    width: 70%;
-    text-align: left;
-    padding-left: 5%;
+  #logo-img {
+    margin-top: -30%;
+    margin-bottom: 10%;
   }
 
   #portfolio {
@@ -115,11 +123,12 @@ img {
 }
 
 #portfolio {
-  padding-top: 20%;
+  padding-top: 10%;
 }
 
 .card-custom-image {
   padding-left: 7%;
+  padding-top: 30%;
 }
 .card-custom .card-custom-image {
   overflow: hidden;
