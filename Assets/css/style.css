@@ -104,6 +104,9 @@ img {
   #logo-img {
     display: none;
   }
+  .button-back {
+    padding: 13px 50px 13px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -115,6 +118,9 @@ img {
   #logo-img {
     margin-top: -30%;
     margin-bottom: 10%;
+  }
+  #image-link {
+    margin-top: 10%;
   }
 }
 
@@ -209,6 +215,7 @@ img {
 
 #image-link {
   width: 100%;
+  padding-top: 15%;
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 5%;
@@ -249,10 +256,4 @@ img {
 .button-back:hover:after {
   top: 0px;
   left: 0px;
-}
-
-@media (min-width: 768px) {
-  .button-back {
-    padding: 13px 50px 13px;
-  }
 }
